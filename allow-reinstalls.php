@@ -37,7 +37,7 @@ add_filter( "upgrader_package_options", "allow_reinstalls_upgrader_package_optio
 /**
  * Implement "upgrader_package_options" for allow-reinstalls
  *
- * {@link https://core.trac.wordpress.org/ticket/27754}
+ * See @link https://core.trac.wordpress.org/ticket/27754/ 
  * 
  * @param array $options {
  *     Options used by the upgrader. 

@@ -21,25 +21,25 @@ Tested with WordPress 4.4.1 and WordPress MultiSite.
 
 
 == Installation ==
-1. Upload the contents of the allow-reinstalls plugin to the `/wp-content/plugins/allow-reinstalls' directory
+1. Upload the contents of the allow-reinstalls plugin to the `/wp-content/plugins/allow-reinstalls` directory
 1. Do nothing until you want to update another plugin or theme.
 
 
 If you've attempted to upload a plugin or theme and you've received the message that says
 
-{{{
+```
 Destination folder already exists. path-to/wp-content/plugins/your-plugin/
 
 Plugin install failed.
-}}}
+```
 
 or
 
-{{{
+```
 Destination folder already exists. path-to/wp-content/themes/your-theme/
 
 Theme install failed.
-}}}
+```
 
 
 1. Activate the allow-reinstalls plugin through the 'Plugins' menu in WordPress.
@@ -48,13 +48,11 @@ Theme install failed.
 
 == Frequently Asked Questions ==
 
-= Does this delete all the files from the existing plugin or theme? =
-= Does this work on WordPress MultiSite =
+= Does this work on WordPress MultiSite? =
 Yes. Use it as a super administrator.
 
 = Can I downgrade a plugin or theme? =
 You'll be able to do it, but whether or not the system works afterwards depends on the plugin or theme.
-
 
 = Can I leave the plugin active? =
 No point. 
@@ -66,14 +64,16 @@ WordPress expects to receive most of its updates automatically, not via a manual
 
 
 == Screenshots ==
-1. allow-reinstalls in action
+1. Upload fails when allow-reinstalls is already installed but inactive
+2. Try again after activating the allow-reinstalls plugin
+3. Upload succeeds this time.
 
 == Upgrade Notice ==
 = 0.0.0 =
-New plugin, available from GitHub and oik-plugins.
+New plugin, also available from GitHub and oik-plugins.
 
 == Changelog == 
 = 0.0.0 =
-* Added: New plugin - to allow oik-weightcountryshipping-pro to be updated using Plugin Install
+* Added: New plugin - to allow oik-weightcountryshipping-pro to be updated using WordPress Plugin Install
 
 
