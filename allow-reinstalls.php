@@ -27,6 +27,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 */
 
+/**
+ * Filter the package options before running an update. 
+ *
+ * @since 4.3.0
+ */
 add_filter( "upgrader_package_options", "allow_reinstalls_upgrader_package_options" );
 
 /**
