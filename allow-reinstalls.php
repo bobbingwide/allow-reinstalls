@@ -26,12 +26,12 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     http://www.gnu.org/licenses/gpl-2.0.html
 
 */
-
 add_filter( "upgrader_package_options", "allow_reinstalls_upgrader_package_options" );
 
 /**
  * Implement "upgrader_package_options" for allow-reinstalls
  *
+ * Depends on WordPress 4.3 since the filter was not introduced until that version.
  * {@link https://core.trac.wordpress.org/ticket/27754}
  * 
  * @param array $options {
