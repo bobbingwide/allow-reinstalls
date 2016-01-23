@@ -25,21 +25,23 @@ Tested with WordPress 4.4.1 and WordPress MultiSite.
 1. Do nothing until you want to update another plugin or theme.
 
 
-If you've attempted to upload a plugin or theme and you've received the message that says
+If you've attempted to upload a plugin and you've received the message that says
 
-```
+`
 Destination folder already exists. path-to/wp-content/plugins/your-plugin/
 
 Plugin install failed.
-```
+`
 
-or
+or you've attempted to upload a theme and got
 
-```
+`
 Destination folder already exists. path-to/wp-content/themes/your-theme/
 
 Theme install failed.
-```
+`
+
+then you need to
 
 
 1. Activate the allow-reinstalls plugin through the 'Plugins' menu in WordPress.
@@ -61,6 +63,10 @@ No point.
 Safety and security; just in case you overwrite the latest version with a back level.
 
 WordPress expects to receive most of its updates automatically, not via a manual upload process.
+
+= Where can I read more? =
+
+[allow-reinstalls on oik-plugins](http://www.oik-plugins.com/oik-plugins/allow-reinstalls)
 
 
 == Screenshots ==
