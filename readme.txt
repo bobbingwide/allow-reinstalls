@@ -3,7 +3,7 @@ Contributors: bobbingwide
 Donate link: http://www.oik-plugins.com/oik/oik-donate/
 Tags: upload, plugin, theme
 Requires at least: 4.3.0
-Tested up to: 4.4.1
+Tested up to: 4.5
 Stable tag: 0.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -16,7 +16,7 @@ When you want to update a custom plugin or theme but don't have an automated pro
 then you can use this plugin to allow you to install a new version of a plugin or theme
 without having to delete the existing plugin.
 
-Tested with WordPress 4.4.1 and WordPress MultiSite.
+Tested with WordPress 4.5 and WordPress MultiSite.
 
 
 

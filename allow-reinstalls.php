@@ -56,4 +56,3 @@ function allow_reinstalls_upgrader_package_options( $options ) {
 	$options['abort_if_destination_exists'] = false;
 	return( $options );
 }
-
