@@ -3,7 +3,7 @@
 Plugin Name: allow-reinstalls
 Plugin URI: http://www.oik-plugins.com/oik-plugins/allow-reinstalls
 Description: Allow re-installation of plugins and themes by upload
-Version: 0.0.0
+Version: 0.0.1
 Author: bobbingwide
 Author URI: http://www.oik-plugins.com/author/bobbingwide
 License: GPLv2 or later

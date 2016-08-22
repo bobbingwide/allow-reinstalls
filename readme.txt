@@ -3,8 +3,8 @@ Contributors: bobbingwide
 Donate link: http://www.oik-plugins.com/oik/oik-donate/
 Tags: upload, plugin, theme
 Requires at least: 4.3.0
-Tested up to: 4.5
-Stable tag: 0.0.0
+Tested up to: 4.6
+Stable tag: 0.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,7 +16,7 @@ When you want to update a custom plugin or theme but don't have an automated pro
 then you can use this plugin to allow you to install a new version of a plugin or theme
 without having to delete the existing plugin.
 
-Tested with WordPress 4.5 and WordPress MultiSite.
+Tested with WordPress 4.6 and WordPress MultiSite.
 
 
 
@@ -75,10 +75,17 @@ WordPress expects to receive most of its updates automatically, not via a manual
 3. Upload succeeds this time.
 
 == Upgrade Notice ==
+= 0.0.1 = 
+Tested with WordPress 4.6. Used to apply updates to plugins such as oik-weight-zone-shipping-pro.
+
 = 0.0.0 =
 New plugin, also available from GitHub and oik-plugins.
 
-== Changelog == 
+== Changelog ==
+= 0.0.1 = 
+* Changed: Added PHPUnit tests in the GitHub version [github bobbingwide allow-reinstalls issues 1]
+* Tested: With WordPress 4.6 
+
 = 0.0.0 =
 * Added: New plugin - to allow oik-weightcountryshipping-pro to be updated using WordPress Plugin Install
 
