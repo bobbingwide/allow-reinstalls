@@ -2,7 +2,7 @@
 /**
  * @group allow-reinstalls
  */
-class Tests_allow_reinstalls extends WP_UnitTestCase {
+class Tests_allow_reinstalls extends BW_UnitTestCase {
 
 	/**
 	 * Confirm which hook will be invoked
