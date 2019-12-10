@@ -1,13 +1,14 @@
 # allow-reinstalls 
 ![banner](https://raw.githubusercontent.com/bobbingwide/allow-reinstalls/master/assets/allow-reinstalls-banner-772x250.jpg)
 * Contributors: bobbingwide
-* Donate link: http://www.oik-plugins.com/oik/oik-donate/
+* Donate link: https://www.oik-plugins.com/oik/oik-donate/
 * Tags: upload, plugin, theme
 * Requires at least: 4.3.0
-* Tested up to: 4.7
+* Tested up to: 5.3
 * Stable tag: 0.0.2
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+* Gutenberg compatible: Yes
 
 ## Description 
 Allows plugins and themes to be updated using the standard WordPress plugin or theme update process.
@@ -17,7 +18,7 @@ When you want to update a custom plugin or theme but don't have an automated pro
 then you can use this plugin to allow you to install a new version of a plugin or theme
 without having to delete the existing plugin or theme.
 
-Tested with WordPress 4.7 and WordPress MultiSite.
+Tested with WordPress 5.0 and WordPress MultiSite.
 
 
 ## Installation 
@@ -75,6 +76,9 @@ WordPress expects to receive most of its updates automatically, not via a manual
 3. Upload succeeds this time.
 
 ## Upgrade Notice 
+# 0.0.3 
+Tested with WordPress 5.3
+
 # 0.0.2 
 Tested with WordPress 4.7.
 
@@ -85,6 +89,11 @@ Tested with WordPress 4.6. Used to apply updates to plugins such as oik-weight-z
 New plugin, also available from GitHub and oik-plugins.
 
 ## Changelog 
+# 0.0.3 
+* Tested: With PHPUnit 8
+* Tested: With WordPress 5.3
+* Tested: With PHP 7.3 and PHP 7.4
+
 # 0.0.2 
 * Changed: The PHPUnit tests in the GitHub version for WordPress 4.7 compatibility. See https://github.com/bobbingwide	oik-batch/issues/16
 * Tested: With WordPress 4.7

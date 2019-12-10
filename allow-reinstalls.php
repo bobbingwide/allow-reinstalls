@@ -1,15 +1,15 @@
 <?php 
 /**
 Plugin Name: allow-reinstalls
-Plugin URI: http://www.oik-plugins.com/oik-plugins/allow-reinstalls
+Plugin URI: https://www.oik-plugins.com/oik-plugins/allow-reinstalls
 Description: Allow re-installation of plugins and themes by upload
-Version: 0.0.2
+Version: 0.0.3
 Author: bobbingwide
-Author URI: http://www.oik-plugins.com/author/bobbingwide
+Author URI: https://www.bobbingwide.com/about-bobbing-wide
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-    Copyright 2016 Bobbing Wide (email : herb@bobbingwide.com )
+    Copyright 2016-2019 Bobbing Wide (email : herb@bobbingwide.com )
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License version 2,
