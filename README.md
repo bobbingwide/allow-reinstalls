@@ -1,11 +1,11 @@
 # allow-reinstalls 
-![banner](https://raw.githubusercontent.com/bobbingwide/allow-reinstalls/master/assets/allow-reinstalls-banner-772x250.jpg)
+![banner](assets/allow-reinstalls-banner-772x250.jpg)
 * Contributors: bobbingwide
 * Donate link: https://www.oik-plugins.com/oik/oik-donate/
 * Tags: upload, plugin, theme
 * Requires at least: 4.3.0
-* Tested up to: 5.3
-* Stable tag: 0.0.2
+* Tested up to: 5.9.3
+* Stable tag: 0.0.4
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
 * Gutenberg compatible: Yes
@@ -13,12 +13,12 @@
 ## Description 
 Allows plugins and themes to be updated using the standard WordPress plugin or theme update process.
 
-
 When you want to update a custom plugin or theme but don't have an automated process
 then you can use this plugin to allow you to install a new version of a plugin or theme
 without having to delete the existing plugin or theme.
 
-Tested with WordPress 5.0 and WordPress MultiSite.
+Tested with WordPress 5.9 and WordPress MultiSite.
+* Note: This plugin is no longer necessary. WordPress core functionality allows you to update existing plugins and themes.
 
 
 ## Installation 
@@ -61,6 +61,8 @@ You'll be able to do it, but whether or not the system works afterwards depends 
 No point.
 
 # Why doesn't WordPress allow this anyway? 
+It does now.
+
 Safety and security; just in case you overwrite the latest version with a back level.
 
 WordPress expects to receive most of its updates automatically, not via a manual upload process.
@@ -76,6 +78,9 @@ WordPress expects to receive most of its updates automatically, not via a manual
 3. Upload succeeds this time.
 
 ## Upgrade Notice 
+# 0.0.4 
+Tested with WordPress 5.9.3
+
 # 0.0.3 
 Tested with WordPress 5.3
 
@@ -89,6 +94,11 @@ Tested with WordPress 4.6. Used to apply updates to plugins such as oik-weight-z
 New plugin, also available from GitHub and oik-plugins.
 
 ## Changelog 
+# 0.0.4 
+* Tested: With WordPress 5.9.3
+* Tested: With PHPUnit 9
+* Tested: With PHP 8.0
+
 # 0.0.3 
 * Tested: With PHPUnit 8
 * Tested: With WordPress 5.3
@@ -104,5 +114,3 @@ New plugin, also available from GitHub and oik-plugins.
 
 # 0.0.0 
 * Added: New plugin - to allow oik-weightcountryshipping-pro to be updated using WordPress Plugin Install
-
-
