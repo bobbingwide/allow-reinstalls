@@ -1,6 +1,6 @@
-<?php // (C) Copyright Bobbing Wide 2016-2021
+<?php // (C) Copyright Bobbing Wide 2016-2021, 2024
 /**
- * @group allow-reinstalls
+ *
  */
 class Tests_allow_reinstalls extends BW_UnitTestCase {
 	
