@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="C:\apache\htdocs\wordpress\wp-content\plugins\allow-reinstalls\phpunit.xml.dist" tests="3" assertions="3" errors="0" failures="0" skipped="0" time="0.115611">
-    <testsuite name="allow-reinstalls" tests="3" assertions="3" errors="0" failures="0" skipped="0" time="0.115611">
-      <testsuite name="Tests_allow_reinstalls" file="C:\apache\htdocs\wordpress\wp-content\plugins\allow-reinstalls\tests\Tests_allow_reinstalls.php" tests="3" assertions="3" errors="0" failures="0" skipped="0" time="0.115611">
-        <testcase name="test_allow_reinstalls_plugin_active" file="C:\apache\htdocs\wordpress\wp-content\plugins\allow-reinstalls\tests\Tests_allow_reinstalls.php" line="7" class="Tests_allow_reinstalls" classname="Tests_allow_reinstalls" assertions="1" time="0.085649"/>
-        <testcase name="test_allow_reinstalls_hooked_in" file="C:\apache\htdocs\wordpress\wp-content\plugins\allow-reinstalls\tests\Tests_allow_reinstalls.php" line="21" class="Tests_allow_reinstalls" classname="Tests_allow_reinstalls" assertions="1" time="0.011580"/>
-        <testcase name="test_upgrader_package_options" file="C:\apache\htdocs\wordpress\wp-content\plugins\allow-reinstalls\tests\Tests_allow_reinstalls.php" line="25" class="Tests_allow_reinstalls" classname="Tests_allow_reinstalls" assertions="1" time="0.018382"/>
+  <testsuite name="C:\apache\htdocs\wordpress\wp-content\plugins\allow-reinstalls\phpunit.xml.dist" tests="3" assertions="3" errors="0" failures="0" skipped="0" time="0.116128">
+    <testsuite name="allow-reinstalls" tests="3" assertions="3" errors="0" failures="0" skipped="0" time="0.116128">
+      <testsuite name="Tests_allow_reinstalls" file="C:\apache\htdocs\wordpress\wp-content\plugins\allow-reinstalls\tests\Tests_allow_reinstalls.php" tests="3" assertions="3" errors="0" failures="0" skipped="0" time="0.116128">
+        <testcase name="test_allow_reinstalls_plugin_active" file="C:\apache\htdocs\wordpress\wp-content\plugins\allow-reinstalls\tests\Tests_allow_reinstalls.php" line="7" class="Tests_allow_reinstalls" classname="Tests_allow_reinstalls" assertions="1" time="0.087562"/>
+        <testcase name="test_allow_reinstalls_hooked_in" file="C:\apache\htdocs\wordpress\wp-content\plugins\allow-reinstalls\tests\Tests_allow_reinstalls.php" line="21" class="Tests_allow_reinstalls" classname="Tests_allow_reinstalls" assertions="1" time="0.011897"/>
+        <testcase name="test_upgrader_package_options" file="C:\apache\htdocs\wordpress\wp-content\plugins\allow-reinstalls\tests\Tests_allow_reinstalls.php" line="25" class="Tests_allow_reinstalls" classname="Tests_allow_reinstalls" assertions="1" time="0.016669"/>
       </testsuite>
     </testsuite>
   </testsuite>

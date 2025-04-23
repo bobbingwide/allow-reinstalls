@@ -4,8 +4,8 @@
 * Donate link: https://www.oik-plugins.com/oik/oik-donate/
 * Tags: upload, plugin, theme
 * Requires at least: 4.3.0
-* Tested up to: 6.6.2
-* Stable tag: 0.0.5
+* Tested up to: 6.8.0
+* Stable tag: 0.1.0
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
 * Gutenberg compatible: Yes
@@ -78,6 +78,9 @@ WordPress expects to receive most of its updates automatically, not via a manual
 3. Upload succeeds this time.
 
 ## Upgrade Notice 
+# 0.1.0 
+Tested with WordPress 6.8 and PHP 8.4
+
 # 0.0.5 
 Tested with WordPress 6.4 and PHP 8.2
 
@@ -97,6 +100,13 @@ Tested with WordPress 4.6. Used to apply updates to plugins such as oik-weight-z
 New plugin, also available from GitHub and oik-plugins.
 
 ## Changelog 
+# 0.1.0 
+* Changed: Update .gitignore. #2
+* Changed: Update PHPUnit tests for PHPUnit 10 & 11 #2
+* Tested: With WordPress 6.8 and WordPress Multisite
+* Tested: With PHP 8.3 and PHP 8.4
+* Tested: With PHPUnit 9, 10, & 11
+
 # 0.0.5 
 * Tested: With PHP 8.1 and PHP 8.2 #2
 * Tested: With WordPress 6.4 and WordPress Multisite
